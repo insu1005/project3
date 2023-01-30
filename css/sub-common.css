@@ -1,0 +1,72 @@
+@charset "UTF-8";
+.visual { 
+    box-sizing: border-box;
+    padding-top: 28rem;
+    width: 100%; height:68rem;
+    position: relative;
+    transition: all 0.3s;
+}
+.sub-common article { 
+    box-sizing: border-box;
+    padding: 18rem 6.5rem; 
+}
+.sub-tit { 
+    margin-bottom: 5rem;
+    font-weight: 500; font-size: 4rem; line-height: 5rem; color: rgb(47, 22, 159); text-align: center; text-decoration: overline;
+}
+.sub-add-tit { 
+    margin-bottom: 3rem;
+    font-weight: 600; font-size: 3.6rem; line-height: 4rem; text-align: center;
+}
+.sub-description{ 
+    margin-bottom: 14rem;
+    font-size: 1.6rem; line-height: 2rem; text-align: center; 
+}
+.sub-sec h4 br { display: none; }
+/* 1500px ~1281px -S */
+@media (max-width:1500px) {
+    .sub-common article { padding: 14rem 6.5rem 9.5rem; }
+}
+/* 1500px ~1281px -E */
+/* 1280px ~ 1025px -S */
+@media (max-width:1280px) {
+    .sub-tit { font-size: 3rem; line-height: 4rem; }
+    .sub-add-tit { font-size: 2.6rem; line-height: 3.6rem; }
+    .sub-description{ font-size: 1.6rem; line-height: 2rem; }
+}
+/* 1280px ~ 1025px -E */
+/* 1024px ~ 781px -S */
+@media (max-width:1024px) {
+    .sub-common article { padding: 10rem 3rem 9.5rem; }
+    .sub-tit { font-size: 2.6rem; line-height: 3rem; }
+    .sub-add-tit { font-size: 2.2rem; line-height: 3.2rem; }
+    .sub-description{ font-size: 1.4rem; line-height: 2rem; }
+}
+/* 1024px ~ 781px -E */
+/* 780px ~ 581px -S */
+@media (max-width:780px) {
+    .visual { 
+        padding-top: 23rem;
+        height:53rem; 
+    }
+    .sub-common article { padding: 6rem 1.5rem 9.5rem; }
+    .sub-tit { font-size: 2.2rem; line-height: 2.6rem; }
+    .sub-add-tit { font-size: 1.8rem; line-height: 2.8rem; }
+    .sub-description{ font-size: 1.4rem; line-height: 2rem; }
+    .sub-sec h4 br { display: block; }
+}
+/* 780px ~ 581px -E */
+/* 581px ~ 361px -S */
+@media (max-width:580px) {
+    .sub-tit { font-size: 1.8rem; line-height: 2.4rem; }
+    .sub-add-tit { 
+        margin-bottom: 6rem;
+        font-size: 1.3rem; line-height: 2rem; 
+     }
+    .sub-description{ display: none; }
+    .sub-sec h4 br { display: block; }
+}
+/* 581px ~ 361px -E */
+/* 360px -S */
+@media (max-width:360px) { /* 변경사항 없음 */ }
+/* 360px -E */

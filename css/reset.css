@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/* Insu Song reset style 2023 version*/
+html{font-size: 10px; line-height: 1px;}
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, address, em, img, strong, var, b, i,dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+article, aside, figure, figcaption, footer, header, hgroup, 
+menu, nav, section, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	-webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+	word-break: break-all;
+	-webkit-text-size-adjust: none;   -moz-text-size-adjust: none;  -ms-text-size-adjust: none; 
+	-webkit-font-smoothing:antialiased; 
+}
+h1, h2, h3, h4, h5, h6 { font:inherit; }
+a,em,strong { text-decoration: none; font: inherit; color: inherit;}
+address { font: inherit; }
+/* HTML5 sementic tag -reset*/
+article, aside, details, figure, footer, header, menu, main
+nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+button { 
+	border: 0; 
+	background-color: inherit; 
+	cursor: pointer;
+}
